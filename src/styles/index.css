@@ -1,0 +1,74 @@
+:root {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+body {
+  margin: 0;
+}
+
+hr {
+  width: 100%;
+  border-color: #888;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+/*button disabled*/
+button[disabled] {
+  background-color: #222;
+  cursor: not-allowed;
+  color: #666;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 16px;
+  font-weight: bolder;
+  border-bottom: 1px solid #333;
+}
+
+header img {
+  width: 75px;
+}
+
+input, select {
+  background-color: #333;
+  color: #fff;
+}
+
+.light {
+  background-color: #666;
+  color: #0F0;
+}
+
+.light button {
+  background-color: #666;
+  color: #0F0;
+}
+
+.height-limited {
+  max-height: 300px;
+  overflow-y: auto;
+}
